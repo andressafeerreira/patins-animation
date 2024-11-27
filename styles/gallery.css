@@ -1,5 +1,4 @@
 section.gallery {
-  width: 100%;
   max-width: 80rem;
   padding: 2.5rem 2rem;
   margin-inline: auto;
@@ -25,7 +24,9 @@ section.gallery {
     grid-template-areas: 
     "A B B"
     "C C D";
-
+    /* width: 100rem; */
+    padding: unset;
+    height: 100rem;
     gap: 2.5rem;
   }
 
@@ -44,7 +45,7 @@ section.gallery {
       }
 
       & > img {
-        height: 25rem;
+        height: 100%;
         object-fit: cover;
         transition: scale 500ms;
       }
@@ -110,7 +111,7 @@ section.gallery {
       border-radius: 50%;
     }
   }
-
+}
   @keyframes image-appear {
     from{
       opacity: 0;

@@ -15,6 +15,13 @@
     animation: rolling 2s linear infinite;
   }
 
+  .rolling img {
+      width: 5rem;
+      height: 2rem;
+      transition: transform 500ms;
+  
+  }
+
   .bg-gradient-animate {
     background: linear-gradient(
       45deg, 

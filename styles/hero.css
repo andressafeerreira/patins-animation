@@ -130,13 +130,17 @@ section.hero {
 
 .content {
   position: relative;
-  display: block;
+  display: flex;
+  padding: 120px 10px 0px 250px;
   width: 100%;
-  max-width: 30.5rem;
+  /* max-width: 30.5rem; */
   height: 30.5rem;
  
 & img {
   position: absolute;
+  width: 15rem;
+  height: 15rem;
+
 }
 
 & img[src*="ellipse"] {
